@@ -4,6 +4,10 @@ import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import About from "@/components/About";
 import Categories from "@/components/Categories";
+import WhyChooseUs from "@/components/whyChooseUs";
+import Testimonials from "@/components/Testimonials";
+import TrendingProducts from "@/components/TrendingProducts";
+import Contact from "@/components/Contacts";
 
 const Home = () => {
   return (
@@ -11,7 +15,11 @@ const Home = () => {
       <Header />
       <Hero />
       <Categories />
+      <WhyChooseUs />
       <About />
+      <Testimonials />
+      <TrendingProducts />
+      <Contact />
       <Footer />
     </div>
   );
